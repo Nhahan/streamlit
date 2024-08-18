@@ -2,8 +2,6 @@ from openai import OpenAI
 
 from config import Config
 
-print(Config.OPEN_AI_API_KEY)
-
 client = OpenAI(
     api_key=Config.OPEN_AI_API_KEY
 )
